@@ -1,0 +1,23 @@
+my-modal {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #ccc;
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    width: 350px;
+    left: calc(50% - 175px);
+    z-index: 1000;
+    display: none;
+    padding: 16px;
+
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font: inherit;
+        cursor: pointer;
+        color: rgba(255, 0, 80, 1);
+        
+    }
+}
